@@ -55,18 +55,6 @@ The training objective combines the following terms:
 - Batch-Mixing Regularization Loss
 - Joint cell–protein reconstruction based on the inner product of cell and protein embeddings
 
-The default loss weights are:
-
-```text
-rec_loss_w       = 1.0
-kmeans_loss_w    = 1.0
-kmeans_intra_w   = 1.0
-kmeans_inter_w   = 1.0
-kmeans_margin    = 1.0
-corr_struct_w    = 0.01
-ppi_loss_w       = 10.0
-```
-
 ![scPPInt framework](Figure/scPPInt.jpg)
 
 ## Study highlights
