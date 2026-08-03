@@ -518,9 +518,3 @@ Human: 9606
 
 - GPU visibility is configured before importing PyTorch. GPU `0` is the default setting in the terminal scripts; use `--cuda_visible_devices` to select another GPU or `--device cpu` to force CPU execution.
 - PPI retrieval depends on the external STRING API and may be affected by network availability, API response changes, identifier mapping success, and species selection.
-
-No maintainer email or separate contact file was found in the current repository snapshot. For project updates, use the GitHub repository:
-
-```text
-https://github.com/Zhou-Shengming/scPPInt
-```
