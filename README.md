@@ -8,7 +8,6 @@ scPPInt is a Python framework for integrating paired single-cell proteomics data
 
 - [Overview](#overview)
 - [Method](#method)
-- [Study highlights](#study-highlights)
 - [Repository structure](#repository-structure)
 - [Environment](#environment)
 - [Input format](#input-format)
@@ -56,17 +55,6 @@ The training objective combines the following terms:
 - Joint cell–protein reconstruction based on the inner product of cell and protein embeddings
 
 ![scPPInt framework](Figure/scPPInt.jpg)
-
-## Study highlights
-
-The manuscript evaluates scPPInt on several paired proteomics settings:
-
-- **N2 and nanoPOTS:** mouse single-cell proteomics with C10, RAW, and SVEC cell types. The manuscript reports clear cell-type separation, improved batch mixing, bidirectional label transfer, and recovery of selected source-specific marker and differential proteins.
-- **Leduc_2024 and Leduc_2025:** mouse airway-related single-cell proteomics used to assess non-shared protein completion, covariation reconstruction, and consistency with PPI-supported protein relationships.
-- **plexDIA and pSCoPE pairings:** human single-cell proteomics used to examine robustness across platforms and experimental years, including ablation analyses of the loss terms.
-- **Human tonsil spatial proteomics:** 16 ROI regions with 22 antigen channels and 84,085 cells, used to evaluate antigen-channel reconstruction, covariation, UMAP structure, and major spatial enrichment patterns.
-
-The reported results emphasize a balance among cell-type structure preservation, batch mixing, cross-dataset label transfer, protein completion, and protein-level covariation. The exact metrics and evaluation settings are described in the manuscript associated with this repository.
 
 ## Repository structure
 
