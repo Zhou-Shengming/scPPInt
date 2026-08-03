@@ -492,8 +492,8 @@ data/N2+nanoPOTS/ppi_edges_protein_ids.csv
 
 The manuscript reports the following data sources:
 
-- **N27:** MassIVE accession `MSV000086809`
-- **nanoPOTS6:** MassIVE accession `MSV000084110`
+- **N2:** MassIVE accession `MSV000086809`
+- **nanoPOTS:** MassIVE accession `MSV000084110`
 - **Leduc_2024, Leduc_2025, plexDIA_2023, pSCoPE_2022, pSCoPE_2023:** [scp.slavovlab.net](https://scp.slavovlab.net/)
 - **Human tonsil spatial proteomics dataset:** [Zenodo DOI 10.5281/zenodo.10982119](https://doi.org/10.5281/zenodo.10982119)
 
