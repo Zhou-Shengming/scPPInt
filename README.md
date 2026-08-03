@@ -93,15 +93,11 @@ scPPInt/
 │   ├── ROI/
 │   ├── prepare_integration_data.py
 │   ├── retrieve_ppi_network.py
-│   ├── data_preparation_and_ppi_guide.txt
-│   └── data_preparation_and_ppi_guide_chinese.txt
 ├── model/
 │   ├── protein_model.py
 │   ├── cell_model_1.py
 │   ├── single_cell_run.py
 │   ├── spatial_run.py
-│   ├── terminal_run_guide.txt
-│   └── terminal_run_guide_english.txt
 ├── Figure/
 │   └── scPPInt.jpg
 ├── environment.yml
