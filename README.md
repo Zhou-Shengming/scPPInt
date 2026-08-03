@@ -497,7 +497,7 @@ The manuscript reports the following data sources:
 - **Leduc_2024, Leduc_2025, plexDIA_2023, pSCoPE_2022, pSCoPE_2023:** [scp.slavovlab.net](https://scp.slavovlab.net/)
 - **Human tonsil spatial proteomics dataset:** [Zenodo DOI 10.5281/zenodo.10982119](https://doi.org/10.5281/zenodo.10982119)
 
-The manuscript describes N27, nanoPOTS6, Leduc, plexDIA, and pSCoPE as mouse or human datasets according to the source study. Choose the STRING taxonomy ID corresponding to the species of the input data:
+The manuscript describes N2, nanoPOTS, Leduc, plexDIA, and pSCoPE as mouse or human datasets according to the source study. Choose the STRING taxonomy ID corresponding to the species of the input data:
 
 ```text
 Mouse: 10090
