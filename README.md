@@ -21,9 +21,6 @@ scPPInt is a Python framework for integrating paired single-cell proteomics data
 - [Example datasets](#example-datasets)
 - [Data sources](#data-sources)
 - [Reproducibility notes](#reproducibility-notes)
-- [Limitations](#limitations)
-- [Citation](#citation)
-- [License and contact](#license-and-contact)
 
 ## Overview
 
@@ -521,35 +518,6 @@ Human: 9606
 
 - GPU visibility is configured before importing PyTorch. GPU `0` is the default setting in the terminal scripts; use `--cuda_visible_devices` to select another GPU or `--device cpu` to force CPU execution.
 - PPI retrieval depends on the external STRING API and may be affected by network availability, API response changes, identifier mapping success, and species selection.
-
-## Limitations
-
-The manuscript highlights several limitations:
-
-- The current mask does not distinguish non-detection, low abundance, and other data-processing causes of missingness.
-- Source-specific proteins generally lack complete ground truth in the other dataset, so reconstruction is evaluated indirectly through masking experiments, marker patterns, covariation, and PPI context.
-- Reconstruction depends on the cell structure available from the other source and on the coverage and accuracy of the PPI network.
-- The current training setup is primarily designed for paired datasets.
-- The terminal spatial extension processes one supplied pair per run and does not directly model spatial coordinates, cell neighborhoods, or tissue images.
-- Covariation can be affected by cell number, cellular composition, and low-abundance measurements; it does not by itself establish direct molecular interactions.
-
-## Citation
-
-The repository is associated with the scPPInt manuscript. Please cite the official preprint or journal article after it becomes available. The working manuscript title is:
-
-```text
-scPPInt: PPI-guided Integration and Imputation of Single-cell Proteomes with Inconsistent Protein Coverage
-```
-
-No verified author list, DOI, preprint identifier, or journal citation was available in the supplied manuscript snapshot. A complete citation should therefore be added here after publication or preprint posting. The manuscript identifies the code repository as:
-
-```text
-https://github.com/Zhou-Shengming/scPPInt
-```
-
-## License and contact
-
-No `LICENSE` file or explicit license statement was found in the current repository snapshot. Please add a license before redistributing the code or accepting external contributions.
 
 No maintainer email or separate contact file was found in the current repository snapshot. For project updates, use the GitHub repository:
 
