@@ -4,10 +4,6 @@
 
 scPPInt is a Python framework for integrating paired single-cell proteomics datasets with incomplete and inconsistent protein coverage. It jointly learns cell representations, protein representations, and a reconstructed expression matrix defined on the union of proteins from both sources. The framework uses a protein–protein interaction (PPI) network as a structural prior and supports downstream cell-level, protein-level, covariation, and spatial proteomics analyses.
 
-> **Code repository:** [Zhou-Shengming/scPPInt](https://github.com/Zhou-Shengming/scPPInt)
->
-> **Important interpretation:** Reconstructed values for proteins that were not observed in one source are model-based estimates. They should be interpreted together with reconstruction metrics, marker patterns, covariation structure, and PPI support rather than as direct experimental measurements.
-
 ## Contents
 
 - [Overview](#overview)
